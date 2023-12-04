@@ -31,7 +31,7 @@ public partial class App : Application
   }
   void HandleKeyboard(object? sender, KeyboardEventArgs args)
   {
-    if (args.Code == 123 /* F12 */)
+    if (args.Code == 120 /* F9 */)
     {
       PlaySound();
     // MessageBox.Show(args.Code.ToString());
